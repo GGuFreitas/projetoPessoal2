@@ -1,0 +1,19 @@
+{
+  "name": "organizalar",
+  "private": true,
+  "packageManager": "pnpm@11.9.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:server": "turbo run dev --filter=@organizalar/server",
+    "dev:mobile": "turbo run dev --filter=@organizalar/mobile",
+    "type-check": "turbo run type-check",
+    "db:migrate": "turbo run db:migrate --filter=@organizalar/server"
+  },
+  "devDependencies": {
+    "turbo": "^2.10.3",
+    "typescript": "^6.0.0"
+  }
+}

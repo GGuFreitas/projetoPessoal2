@@ -1,0 +1,9 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+# Se o Metro (bundler do Expo) reclamar de resolver módulos do workspace
+# ("Unable to resolve module @organizalar/contracts"), descomente a linha
+# abaixo — é o fallback recomendado pela própria documentação do Expo
+# para monorepos com pnpm.
+# nodeLinker: hoisted
