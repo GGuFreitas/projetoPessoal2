@@ -1,0 +1,15 @@
+{
+  "name": "@organizalar/contracts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@sinclair/typebox": "^0.34.0"
+  },
+  "devDependencies": {
+    "@organizalar/tsconfig": "workspace:*",
+    "typescript": "^6.0.0"
+  }
+}
